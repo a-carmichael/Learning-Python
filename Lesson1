@@ -1,0 +1,11 @@
+Python lesson 1. I'm dreadfully new to Python AND github, so I hope I'm doing this right.
+
+print "Hullo, World!"
+
+
+x = 1
+if x == 1:
+    # indented four spaces
+    print "x is 1. because I told it to be."
+    
+    
