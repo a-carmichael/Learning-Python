@@ -1,0 +1,43 @@
+mystring = 'hello'
+myfloat = 7.0
+myint = 7
+
+mystring = 'hello'
+mystring = "hello"
+
+print "don't worry about apostrophes"
+#double quote allows for apostrophes
+
+# also hashtag is comment character.
+
+one = 1
+two = 2
+three = one + two
+
+hello = "hello"
+world = "world"
+helloworld = hello + " " + world
+
+a, b = 3, 4
+
+#Mixing operators between numbers and strings is not supported:
+# This will not work!
+print one + two + hello
+
+#Traceback (most recent call last):
+#  File "prog.py", line 2, in <module>
+#NameError: name 'one' is not defined
+
+
+# change this code
+mystring = "hello"
+myfloat = 10.0
+myint = 20
+
+# testing code
+if mystring == "hello":
+    print "String: %s" % mystring
+if isinstance(myfloat, float) and myfloat == 10.0:
+    print "Float: %d" % myfloat
+if isinstance(myint, int) and myint == 20:
+    print "Integer: %d" % myint
