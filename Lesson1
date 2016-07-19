@@ -8,4 +8,6 @@ if x == 1:
     # indented four spaces
     print "x is 1. because I told it to be."
     
+print "Hello, World!"
+    
     
